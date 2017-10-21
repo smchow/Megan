@@ -77,7 +77,7 @@ The next step is to move that section of code to "qualify" page and set that as 
 <br>
 ------ Status --
 <br> <br>
--- Task#5 -- Once the submit button in "qualify page" is clicked, it should lookup the json file and output the result as "You are eligible for Affordable Housing in Princeton" or .......
+-- Task#5 -- Once the submit button in "qualify page" is clicked, it should lookup the json file and output the result as "You are eligible for Affordable Housing in Princeton" or ........
 <br>
 ------ Status -- 
 <br> <br>
