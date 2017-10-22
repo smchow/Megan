@@ -10,6 +10,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var about = require('./routes/about');
 var qualify = require('./routes/qualify');
+var apply = require('./routes/apply');
 var post_eligibility = require('./routes/post_eligibility');
 var pdf = require('./routes/pdf');
 var fillOutPdf = require('./routes/fillOutPdf');
@@ -45,6 +46,7 @@ app.use('/post_eligibility', post_eligibility);
 app.use('/pdf', pdf);
 app.use('/fillOutPdf', fillOutPdf);
 app.use('/qualify', qualify);
+app.use('/apply', apply);
 app.use('/vue', vue);
 
 app.get('/process_get', function (req, res) {

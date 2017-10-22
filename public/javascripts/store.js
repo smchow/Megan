@@ -131,7 +131,7 @@ var store = new Vuex.Store({
           resolve(data);
         }
 
-      var updateActiveFields = (
+  
 
       axios.get('/json/application-fields.json')
       .then(setFields)
